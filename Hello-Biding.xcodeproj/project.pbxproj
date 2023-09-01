@@ -11,6 +11,7 @@
 		F4E1BFD62AA27DD800E878AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1BFD52AA27DD800E878AF /* ContentView.swift */; };
 		F4E1BFD82AA27DD800E878AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E1BFD72AA27DD800E878AF /* Assets.xcassets */; };
 		F4E1BFDB2AA27DD800E878AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E1BFDA2AA27DD800E878AF /* Preview Assets.xcassets */; };
+		F4E1BFE32AA27E4D00E878AF /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E1BFE22AA27E4D00E878AF /* Dish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F4E1BFD52AA27DD800E878AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4E1BFD72AA27DD800E878AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E1BFDA2AA27DD800E878AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4E1BFE22AA27E4D00E878AF /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		F4E1BFD22AA27DD800E878AF /* Hello-Biding */ = {
 			isa = PBXGroup;
 			children = (
+				F4E1BFE12AA27E3E00E878AF /* Models */,
 				F4E1BFD32AA27DD800E878AF /* Hello_BidingApp.swift */,
 				F4E1BFD52AA27DD800E878AF /* ContentView.swift */,
 				F4E1BFD72AA27DD800E878AF /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				F4E1BFDA2AA27DD800E878AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4E1BFE12AA27E3E00E878AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4E1BFE22AA27E4D00E878AF /* Dish.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E1BFE32AA27E4D00E878AF /* Dish.swift in Sources */,
 				F4E1BFD62AA27DD800E878AF /* ContentView.swift in Sources */,
 				F4E1BFD42AA27DD800E878AF /* Hello_BidingApp.swift in Sources */,
 			);
